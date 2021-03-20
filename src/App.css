@@ -1,0 +1,60 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url('./back1.jpg');
+}
+
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.customerMaster
+ {
+  width: 400px;
+}
+
+.customerMaster h2
+ {
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: bold;
+  font-family: Gabriola;
+}
+
+.customerMaster a {
+  text-align: center;
+}
+
+input[type='text'] {
+  background-color: white;
+  color: #827ffe;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: none;
+  width: 100%;
+  padding: 20px 30px;
+}
+
+
+input[type="submit"] {
+  position: relative;
+  padding: 15px 0px;
+  background-color: #827ffe;
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  margin : 0 auto;
+  width: 70%;
+}
+
+.check {
+  font-size: 16px;
+}
